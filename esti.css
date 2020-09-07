@@ -1,0 +1,201 @@
+body{
+	background: url(hojaa.jpg);
+	top:10px;
+	right: 400px;
+
+}
+.t{
+   font-size: 15px;
+   font-family: 'Permanent Marker', cursive;
+   text-shadow: 5px 5px 1px white;
+}
+.a{
+   position: absolute;
+   top: 30px;
+   left: 540px;
+   color: #8B5405;
+   animation-name: animacion;
+   animation-duration: 3s;
+   animation-delay: 2s;
+   animation-iteration-count: infinite;
+}
+.b{ 
+   position: absolute;
+   top: 30px;
+   left: 770px;
+   color: #BBA45C;
+   animation-name: animacionn;
+   animation-duration: 3s;
+   animation-delay: 2s;
+   animation-iteration-count: infinite;
+
+}
+@keyframes animacion{
+  0%{color: #8B5405;}
+  100% {color:#BBA45C;}
+  
+}
+
+@keyframes animacionn{
+ 0%{color: #BBA45C;}
+ 100% {color:#8B5405;}
+  
+}
+.boton1{
+	position: absolute;
+	top: 240px;
+	left: 200px;
+	border: solid 2px;
+}
+.unot{
+	display: none;
+}
+.ut{
+	position: absolute;
+	font-size: 11px;
+	font-family: 'Roboto Mono', monospace;
+	left: 96px;
+	top: -10px;
+	color: black;
+}
+.ut2{
+	position: absolute;
+	font-size: 11px;
+	font-family: 'Roboto Mono', monospace;
+	left: 1px;
+	top: 50px;
+	color: black;
+
+}
+.Mayas{
+	position: absolute;
+	bottom:160px;
+	left: 1px;
+}
+.boton1:active .unot{
+	position: absolute;
+	bottom:-70px;
+	left: 120px;
+	height: 220px;
+	width: 200px;
+	border: solid #5A3A03 2px;
+	display: block;
+}
+.boton2{
+	position: absolute;
+	top: 450px;
+	left: 195px;
+	border: solid 2px;
+}
+.dost{
+  display: none;
+}
+.dt{
+	position: absolute;
+	font-size: 11px;
+	font-family: 'Roboto Mono', monospace;
+	left: 105px;
+	bottom:130px;
+	color: black;
+}
+.dt2{
+	position: absolute;
+	font-size: 11px;
+	font-family: 'Roboto Mono', monospace;
+	left: 4px;
+	bottom: -5px;
+	color: black;
+}
+.mapa{
+	position: absolute;
+	bottom:145px;
+	left: 1px;
+}
+.boton2:active .dost{
+	position: absolute;
+	bottom:-100px;
+	left: 125px;
+	height: 220px;
+	width: 200px;
+	border: solid #5A3A03 2px;
+	display: block;
+}
+.boton3{
+	position: absolute;
+	top: 215px;
+	right:220px;
+	border: solid 2px;
+}
+.trest{
+display: none;
+}
+.tt{
+	position: absolute;
+	font-size: 11px;
+	font-family: 'Roboto Mono', monospace;
+	left: 96px;
+	top: -10px;
+	color: black;
+}
+.tt2{
+	position: absolute;
+	font-size: 11px;
+	font-family: 'Roboto Mono', monospace;
+	left: 1px;
+	top: 65px;
+	color: black;
+
+}
+.reli{
+	position: absolute;
+	bottom:140px;
+	left: 3px;
+}
+.boton3:active .trest{
+	position: absolute;
+	bottom:-70px;
+	right: 120px;
+	height: 220px;
+	width: 200px;
+	border: solid #5A3A03 2px;
+	display: block;
+}
+.boton4{
+	position: absolute;
+	top: 450px;
+	right: 210px;
+	border: solid 2px;
+}
+.cuatrot{
+	display: none;
+}
+.poli{
+	position: absolute;
+	bottom:135px;
+	left: 1px;
+}
+.ct{
+	position: absolute;
+	font-size: 11px;
+	font-family: 'Roboto Mono', monospace;
+	left: 115px;
+	top: -13px;
+	color: black;
+}
+.ct2{
+	position: absolute;
+	font-size: 11px;
+	font-family: 'Roboto Mono', monospace;
+	left: 1px;
+	top: 76px;
+	color: black;
+}
+.boton4:active .cuatrot{
+	position: absolute;
+	bottom:-95px;
+	right: 135px;
+	height: 220px;
+	width: 200px;
+	border: solid #5A3A03 2px;
+	display: block;
+}
